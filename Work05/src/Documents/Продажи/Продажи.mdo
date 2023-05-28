@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1dcf3e2b-9b45-4faf-9512-d8fa930d549e">
+  <producedTypes>
+    <objectType typeId="6570bc94-0b73-4939-8f28-3cad3c2b991e" valueTypeId="b505bb37-68a9-444e-8e3f-d913ba64c073"/>
+    <refType typeId="ab455ef8-e40b-424c-964b-b0fb64179a28" valueTypeId="d616878d-dcfa-4d91-b60d-f5223193c55d"/>
+    <selectionType typeId="95efe222-cc77-4b53-8c99-582640e23a01" valueTypeId="4f76b27f-2392-4687-874f-2ffc8ab4948e"/>
+    <listType typeId="06cdb7a0-cf77-4924-82f3-7d578dc30870" valueTypeId="e77a8010-cde7-4a48-9ee2-0cf0e7d7fca6"/>
+    <managerType typeId="0187ae8a-849f-44fe-a3d8-c3df92d49136" valueTypeId="d421eb11-0068-4e8d-ac47-cb9eee7f3800"/>
+  </producedTypes>
+  <name>Продажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Продажи.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Продажи.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="c8e9a5b5-98fa-4146-8a79-653cb159ce31">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="d53b3f3f-755d-400f-be4d-a1d378aadb5d">
+    <producedTypes>
+      <objectType typeId="39304fc0-3c56-44e5-8b88-ce3fe5206a43" valueTypeId="ecdd2865-5de3-4c5b-84a3-b50673b470ed"/>
+      <rowType typeId="1d01c815-9daa-441c-a0f2-118bd29f3c6b" valueTypeId="90f3192f-e7a1-4966-a02c-ec4f86e74efc"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="d0831ea3-5fd9-4e39-9576-ab191a642ed5">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="23e78304-4dc0-498b-be77-44b683eaea62">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3e1875da-badf-4df4-9bcc-a4cdf955479a">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
