@@ -45,6 +45,20 @@
       <key>ru</key>
       <value>Товары</value>
     </synonym>
+    <attributes uuid="c8d867f9-fffb-4256-9aad-52a3b5d2a428">
+      <name>Товар</name>
+      <synonym>
+        <key>ru</key>
+        <value>Товар</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Товары</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="d0831ea3-5fd9-4e39-9576-ab191a642ed5">
       <name>Количество</name>
       <synonym>
